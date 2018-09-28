@@ -13,6 +13,7 @@
     <button class="ui blue button" @click="add">添加笔记</button>
     <note v-for="(note,index) in notes" :todo="note" :key="index"></note>
     <div v-if="!notes.length" class="ui message">当前没有笔记，请点击添加笔记。</div>
+    <div>nice</div>
 </div>
 
 
